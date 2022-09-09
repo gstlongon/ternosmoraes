@@ -271,6 +271,10 @@ img.whatsapp-icon {
     bottom: 60px;
 }
 
+span.home-title {
+    color: #0000ff;
+}
+
 #home .container {
   margin: 0;
 }
@@ -382,7 +386,7 @@ img.whatsapp-icon {
   }
 
   .product {
-    padding: 3.625rem 2rem;
+    padding: 3.625rem 1rem 2rem;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     border-bottom: 0.25rem solid var(--base-color);
     border-radius: 0.25rem 0.25rem 0 0;
@@ -393,8 +397,13 @@ img.whatsapp-icon {
     max-width: 500px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 
+  }
+
+  span.product-text {
+    margin-top: 10px;
+    display: block;
   }
 
 
